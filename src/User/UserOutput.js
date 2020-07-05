@@ -1,10 +1,11 @@
 import React from 'react';
+import './UserOutput.css';
 
 const userOutput = (props) => {
   return (
-    <div className="userOutput">
+    <div className="UserOutput">
       <p><b>The username is:</b> {props.name}</p>
-      <p><b>The quote is:</b> That's what she said</p>
+      <p><b>The quote is:</b> boom! roasted!</p>
     </div>
   )
 }
